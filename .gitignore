@@ -27,7 +27,7 @@
 *.so
 *.so.*
 *.dylib
-
+*.metadata
 # Executables
 *.exe
 *.out
