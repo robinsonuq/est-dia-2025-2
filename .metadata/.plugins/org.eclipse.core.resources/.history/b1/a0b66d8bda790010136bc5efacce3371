@@ -1,0 +1,15 @@
+package recursividad;
+
+public class Parametros {
+
+	
+	public static void main(String[] args) {
+		
+		String nombre = "Robinson";
+		nombre.replace("R","J");
+		System.out.println(nombre);
+	}
+
+	
+	
+}

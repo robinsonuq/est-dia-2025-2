@@ -1,0 +1,17 @@
+package recursividad;
+
+public class Parametros {
+
+	
+	public static void main(String[] args) {
+		
+		int a = 6;
+		sumar(a);
+	}
+
+	private static void sumar(int a) {
+		a = a * 5;
+		
+	}
+	
+}

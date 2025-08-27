@@ -1,0 +1,20 @@
+package collections;
+
+import java.util.ArrayList;
+import java.util.Collections;
+
+public class Comparacion {
+
+	public static void main(String[] args) {
+		Cliente cliente1 = new Cliente("Juan",20);
+		Cliente cliente2 = new Cliente("Luan",30);
+		
+		ArrayList<Cliente> lista = new ArrayList<>();
+		lista.add(cliente1);
+		lista.add(cliente2);
+		
+		Collections.sort(lista,new ComparadorCedula());
+		
+		
+	}
+}

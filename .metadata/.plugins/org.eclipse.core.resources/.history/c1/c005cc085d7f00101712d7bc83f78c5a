@@ -1,0 +1,10 @@
+package collections;
+
+public class Comparacion {
+
+	public static void main(String[] args) {
+		
+		String palabra = "a";
+		System.out.println(palabra.hashCode());
+	}
+}

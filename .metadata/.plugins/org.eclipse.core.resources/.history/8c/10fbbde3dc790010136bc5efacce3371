@@ -1,0 +1,21 @@
+package recursividad;
+
+public class Parametros {
+
+	
+	public static void main(String[] args) {
+	
+		
+		Persona persona = new Persona("Robinson");
+		cambiarNombre(persona);
+		System.out.println(persona.getNombre());
+	}
+
+	private static Persona cambiarNombre(Persona persona) {
+		persona.setNombre("Carlos");
+		return persona;
+	}
+
+	
+	
+}
